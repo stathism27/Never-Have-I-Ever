@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundMain">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:shadowColor="@color/backgroundTextMain"
+            android:shadowRadius="2"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/soniano"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/textMain"
+            android:textSize="30dp"/>
+        <TextView
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nipcen"
+            android:id="@+id/cards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_cards"
+            android:textColor="@color/text2Main"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"/>
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cards">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/buttonGross"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/gross1"/>
+                <TextView
+                    android:id="@+id/grossText"
+                    android:layout_width="160dp"
+                    android:layout_height="20dp"
+                    android:text="@string/gross"
+                    android:textColor="@color/grossColor"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/carl_banks">
+                </TextView>
+                <ImageButton
+                    android:id="@+id/buttonDirty"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/dirty1"/>
+                <TextView
+                    android:id="@+id/dirtyText"
+                    android:layout_width="160dp"
+                    android:layout_height="20dp"
+                    android:text="@string/dirty"
+                    android:textColor="@color/dirtyColor"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/carl_banks">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/buttonEmbarrased"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/embarrased1"/>
+                <TextView
+                    android:id="@+id/embText"
+                    android:layout_width="160dp"
+                    android:layout_height="20dp"
+                    android:text="@string/embarassing"
+                    android:textColor="@color/embColor"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/carl_banks">
+                </TextView>
+                <ImageButton
+                    android:id="@+id/buttonOthers"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/others1"/>
+                <TextView
+                    android:id="@+id/othersText"
+                    android:layout_width="160dp"
+                    android:layout_height="20dp"
+                    android:text="@string/others"
+                    android:textColor="@color/othersColor"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/carl_banks">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:layout_centerHorizontal="true"
+            android:id="@+id/startGame"
+            android:fontFamily="@font/carl_banks"
+            android:text="@string/start_game"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/linearlayout1"
+            android:background="@color/backgroundMain2"
+            android:textColor="@color/text2Main"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startGame"
+            android:gravity="left">
+            <ImageButton
+                android:scaleType="centerCrop"
+                android:layout_width="42dp"
+                android:layout_height="30dp"
+                android:id="@+id/changeLang"
+                android:background="@color/textMain">
+
+            </ImageButton>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NEVER HAVE I EVER</string>
+    <string name="start_game">Start Game</string>
+    <string name="number_of_cards">Number of Cards</string>
+    <string name="choose">Choose Language</string>
+    <string name="cancel">Cancel</string>
+    <string name="gross">Gross</string>
+    <string name="dirty">Dirty</string>
+    <string name="embarassing">Embarassing</string>
+    <string name="others">Others</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Greek</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>

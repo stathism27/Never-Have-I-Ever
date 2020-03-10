@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ΕΓΩ ΠΟΤΕ ΔΕΝ</string>
+    <string name="start_game">Έναρξη παιχνιδιού</string>
+    <string name="number_of_cards">Αριθμός καρτών</string>
+    <string name="choose">Επίλεξε Γλώσσα</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="gross">Αηδιαστικά</string>
+    <string name="dirty">Πρόστυχα</string>
+    <string name="embarassing">Εξευτελιστικά</string>
+    <string name="others">Λοιπά</string>
+    <string-array name="languages">
+        <item>Αγγλικά</item>
+        <item>Ελληνικά</item>
+        <item>Άκυρο</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundMain">#191A19</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroundMain2">#191A29</color>
+    <color name="textMain">#2196F3</color>
+    <color name="backgroundTextMain">#78C1FF</color>
+    <color name="text2Main">#FF039B</color>
+    <color name="dirtyColor">#FF0000</color>
+    <color name="embColor">#F5E803</color>
+    <color name="grossColor">#5EFF00</color>
+    <color name="othersColor">#00FAE0</color>
+    <color name="grey">#6B6B6B</color>
+</resources>
