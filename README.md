@@ -13,6 +13,10 @@ Never Have I Ever is an exciting game but unfortunately isn't available in many 
 The main purpose of this project is to recreate the game and make it available in as many languages as possible.
 ...and expand the database of course...
 
+## Languages
+![English](https://github.com/stathism27/Never-Have-I-Ever/blob/master/app/src/main/res/drawable/en.jpg)
+![Greek](https://github.com/stathism27/Never-Have-I-Ever/blob/master/app/src/main/res/drawable/gr.jpg)
+
 ![Screenshot](https://github.com/stathism27/Never-Have-I-Ever/blob/master/screenshots/1.jpg)
 ![Screenshot](https://github.com/stathism27/Never-Have-I-Ever/blob/master/screenshots/3.jpg)
 ![Screenshot](https://github.com/stathism27/Never-Have-I-Ever/blob/master/screenshots/4.jpg)
