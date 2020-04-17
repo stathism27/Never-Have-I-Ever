@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
     ImageButton buttonOthers;
     ImageButton buttonGross;
     ImageButton buttonEmbarrased;
+    final String LANGS[] = {"en","gr"};
+    final String DEFAULT_LOCALE = "en";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,9 +52,15 @@ public class MainActivity extends AppCompatActivity {
         loadLocale();
         setContentView(R.layout.activity_main);
 
+
         changeLang = findViewById(R.id.changeLang);
         String locale = getSharedPreferences("Settings",MODE_PRIVATE).getString("My Lang","en");
-        updateButtonBack(locale);
+        List<String> tempList = Arrays.asList(LANGS);
+        if(tempList.contains(locale)){
+            updateButtonBack(locale);
+        }else{
+            updateButtonBack(DEFAULT_LOCALE);
+        }
 
         changeLang.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -297,6 +305,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateButtonBack(String localeName){
         changeLang.setImageDrawable(getDrawableImage(localeName));
+
+
     }
 
 
